@@ -11,10 +11,16 @@ div:hover {
 
 #cor-complementar {
     background-color: #2C8000;
+    height: 200px;
 }
 #cor-escura {
     background-color: #330033;
 }
 #cor-clara {
     background-color: lightblue;
+}
+
+h3 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
