@@ -24,3 +24,7 @@ h3 {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+
+div:nth-child(odd) {
+    font-style: italic;
+}
