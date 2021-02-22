@@ -1,0 +1,22 @@
+ h1, p {
+    text-align: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+ li:hover, a:hover {
+    background-color: teal;
+}
+
+a:visited {
+    font-weight: 900;
+}
+li:active {
+    font-family:fantasy;
+}
+
+ul, ol {
+    list-style: none;
+}
