@@ -1,20 +1,35 @@
 .super-mario {
     position:absolute;
-    width: 70%;
-    top: 20px;
+    width: 300px;
+    top:40%;
     z-index: 3;
 }
 
 
 .goomba {
     position:absolute;
-    width: 70%;
-    top: 900px;
+    width: 300px;
+    top: 90%;
     z-index: 1;
 }
 
 .bowser {
-    position: absolute;
-    top: 1700px;
     z-index: 2;
+    float: right;
+    width: 300px;
+}
+.word, .baloon {
+    float: left;
+    position: absolute;
+}
+.baloon {
+    z-index: 1;
+    left: 40%;
+}
+.word {
+    z-index: 2;
+    left: 46%;
+}
+#mario-e-goomba {
+    
 }
