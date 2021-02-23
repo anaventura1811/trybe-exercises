@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@400;500;600;700&display=swap');
+      </style>
+      <title>Soco a 80km/h: Conheça o Stomatopoda</title>
   </head>
   <body>
     <header>
@@ -11,27 +15,29 @@
       </div>
       <nav class="navigation"> 
         <ul>
-          <li><a href="">Página Inicial</a></li>
+          <li><a href="#title-container">Página Inicial</a></li>
           <li><a href="#sobre">Sobre</a></li>
-          <li><a href="">Contato</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
     </header>
     <section id="main-section">
       <main>
         <article>
-          <h2>Stomatopoda</h2>
+          <h2>Stomatopoda</h2> 
           <h3>Fatos sobre o Stomatopoda</h3>
+          <img class="stomatopoda" src="./Imagens/mantis.jpg" alt="Stomatopoda em seu hábitat natural, visto de frente">
           <h4>Informações gerais</h4>
           <p>Nome científico: <em>Odontodactylus scyllarus</em>.</p>
-          <p>Stomatopoda (ou estomatópode), chamados popularmente de 
+          <p> A Stomatopoda (ou estomatópode), popularmente conhecida como
             tamarutacas ou de lacraias-do-mar no Brasil, é uma ordem 
-            de crustáceos marinhos da subclasse Hoplocarida, que agrupa 
+            de crustáceos marinhos da subclasse Hoplocarida e que agrupa 
             cerca de 400 espécies, caracterizadas principalmente pela 
             morfologia da segunda pata torácica, que é modificada em 
-            apêndice subquelado, lembrando uma pata de louva-a-deus.[2]</p>
+            apêndice subquelado, lembrando uma pata de louva-a-deus.</p>
 
             <table>
+              <thead><tr><th>Classificação científica</th></tr></thead>
               <tbody>
                   <tr><th>Reino</th><td>Animalia</td></tr>
                   <tr><th>Filo</th><td>Arthropoda</td></tr>
@@ -41,20 +47,75 @@
                   <tr><th>Ordem</th><td>Stomatopoda</td></tr>
               </tbody>
             </table>
+            <img class="stomatopoda" src="./Imagens/Mantis-shrimp.jpg" alt="Stomatopoda em seu hábitat natural, visto de cima">
         </article>
         <section id="artigos-menores">
-          <article></article>
-          <article></article>
-          <article></article>
+          <article><h3>Uma "lagosta-boxeadora"</h3>
+            <p>As maiores esmagadoras, tais como exemplares de Odontodactylus scyllarus,
+              são capazes de desferir um dos mais rápidos e violentos golpes do 
+              reino animal, <span class="curiosidade">um soco que pode apresentar a velocidade de um tiro
+               calibre .22 (equivalente a 720km/h) e uma força de impacto de 60 kg/cm²</span>. 
+               Essa força esmagadora é a responsável pelo seu título 
+               de "lagosta-boxeadora" e é capaz de facilmente quebrar a carapaça 
+               de um caranguejo, as conchas duras e calcificadas de gastrópodes ou 
+               até mesmo quebrar o vidro reforçado de um aquário.</p>
+          </article>
+          <article><h3>Visão privilegiada</h3>
+              <p>Com uma visão altamente privilegiada, estes pequenos e fascinantes 
+                crustáceos possuem <span class="curiosidade">16 cones foto-receptores</span>. Para se ter uma ideia 
+                do que isso representa, basta lembrar que os seres humanos possuem <span class="curiosidade">três tipos 
+                de cones foto-receptores</span>: verde, azul e vermelho. E que é justamente 
+                por termos o cone vermelho que somos capazes de ver não só a cor vermelha, como também
+                todas as cores derivadas destas combinações de cores primárias. É ou não é
+                uma visão mais do que privilegiada?!</p>
+          </article>
         </section>
+        <section id="image-container"><img class="stomatopoda" src="Imagens/mantis-shrimp-n.jpg" alt="Stomatopoda em seu hábitat natural, visto de perfil"></section>
       </main>
+      
       <section id="side-bar">
         <aside>
-          <section id="sobre"><h2>Sobre</h2></section>
+          <section><h2>Quer saber mais?</h2>
+            <h3>Assista este vídeo!</h3>
+           <iframe width=inherit height= 315px src="https://www.youtube.com/embed/E0Li1k5hGBE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <section id="referencias"><h2>Para saber mais...</h2>
+            <h4>Estas foram as referências utilizadas para criar o conteúdo deste site:</h4>
+            <ul>
+              <li><a href="https://www.nationalgeographic.com/science/article/natures-most-amazing-eyes-just-got-a-bit-weirder" target="_blank">Artigo do National Geographic</a></li>
+              <li><a href="https://theoatmeal.com/comics/mantis_shrimp" target="_blank">Artigo Mantis-Shrimp do The Oatmeal</a></li>
+              <li><a href="https://pt.wikipedia.org/wiki/Stomatopoda" target="_blank">Artigo do Wikipedia</a></li>
+              <li><a href="https://www.youtube.com/watch?v=E0Li1k5hGBE" target="_blank">E este vídeo do YouTube</a></li>
+    
+            </ul>
+    
+           </section>
+           <section id="sobre"><h2>Sobre</h2>
+            <p>Site criado como parte de atividade prática desenvolvida no Módulo 1, Bloco 3, do 
+              curso de Desenvolvimento Web Full Stack da<a href="https://www.betrybe.com" target="_blank">Trybe,</a>Turma 10, Tribo A.
+            </p>
+          </section>
+          </section>
+          <section id="contato"><h2>Contato</h2>
+            <h4>Bora conversar!</h4>
+            <div id="icon-container">
+              <a href="https://github.com/anaventura1811" target="_blank"><img class="icon" src="Imagens/github-brands.svg" alt="Link para perfil no GitHub"/></a>
+              <a href="https://www.linkedin.com/in/ana-flavia-pereira-ventura/" target="_blank"><img class="icon" src="Imagens/linkedin-brands.svg" alt="Link para Linkedin"/></a>
+              <a href="https://anaventura1811.github.io/hello-world/" target="_blank"><img class="icon" src="Imagens/globe-solid.svg" alt="Link para web portfólio"/></a>
+           </div>
+          </section>
 
         </aside>
       </section>
     </section>
-    <footer>Conteúdo compilado por Ana Flávia Pereira Ventura, Turma 10 | Tribo A | 2021</footer>
+    <footer>
+        <nav class="navigation"> 
+          <ul>
+            <li><a href="#title-container">Página Inicial</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      <div id="rodape"><p>Conteúdo compilado por Ana Flávia Pereira Ventura, 2021.</p></div>
+    </footer>
   </body>
 </html>
