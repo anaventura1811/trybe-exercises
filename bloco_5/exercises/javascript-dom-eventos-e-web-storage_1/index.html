@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    <div class="main-content">
+      <div class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </div>
+    </div>
+    <script>
+        document.getElementsByTagName('p')[0].innerText = "Daqui a dois anos, eu me vejo trabalhando com tecnologia, educação e direitos humanos. Os três temas que amo! Também já terei concluído meu doutorado em Sociologia, a formação em Desenvolvimento Web na Trybe e estarei trabalhando numa excelente empresa/organização com um salário muito bom, feliz e realizada.";
+        document.getElementsByClassName("main-content")[0].style.backgroundColor = "rgb(75, 164, 109)";
+        document.getElementsByClassName("main-content")[1].style.backgroundColor = "rgb(75, 164, 109)";
+        document.getElementsByTagName('p')[0].style.fontVariantCaps = "uppercase";
+
+
+        /*
+        Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
+        - document.getElementById()
+        - document.getElementsByClassName()
+        - document.getElementsByTagName()
+ Crie uma função que mude a cor do quadrado vermelho para branco.
+ Crie uma função que corrija o texto da tag <h1>.
+ Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+ Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+        */
+    </script>
+  </body>
+</html>
