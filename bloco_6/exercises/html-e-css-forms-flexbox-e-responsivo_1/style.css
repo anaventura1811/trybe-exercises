@@ -1,0 +1,20 @@
+body {
+    background-color: #fff;
+    color: #1c1e21;
+}
+
+.cv .dados-pessoais {
+    display: inline-block;
+    padding: 30px;
+    margin-left: 30%;
+}
+
+input {
+    margin-left: 20%;
+}
+.cv {
+    background-color: rgb(234, 237, 240);
+}
+.btn:hover {
+    opacity: 0.9;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário- Currículo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <header class="top-bar">
+    <h1>Envie seu currículo</h1>
+    <p>Preencha os campos abaixo</p>
+  </header>
+  <div id="cv" class="form-group">
+    <form method="GET" class=""> Dados pessoais
+      <fieldset>
+        <div class="form-group">
+          <label for="nome"> Nome:</label>
+          <input class="form-control" type="text" name="nome" maxlength="40"placeholder="Digite seu nome" id="nome" required> 
+        </div>
+        <div class = "form-group">
+          <label for="email">Email:</label>
+          <input class="form-control" type="email" name="email" max="50" placeholder="Digite seu email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="cpf">CPF:</label>
+          <input class="form-control" type="text" max="11" name="cpf" id="cpf" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Endereço:</label>
+          <input class="form-control" type="text" name="endereco" maxlength="200" id="address" required>
+        </div>
+        <div class="form-group">
+          <label for="city">Cidade:</label>
+          <input class="form-control" type="text" name="city" max="28" id="city" required>
+        </div>
+        <div class="form-group">
+          <label for="state">Estado: </label>
+          <select name="state" id="state" required>
+            <option value="select-state" selected>Selecione seu estado</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="radio" name="moradia" id="casa" value="casa" required>
+          <label for="casa">Casa</label>
+          <input type="radio" name="moradia" id="apartamento" value="apartamento" required>
+          <label for="apartamento"> Apartamento</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="form-group">
+          <label for="resumo-cv">Resumo do Currículo</label>
+          <textarea class="form-control" name="resumo-cv" id="resumo-cv" max="1000" id="" cols="30" rows="10" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="cargo">Cargo:</label>
+          <input class="form-control" id="cargo" type="text" max="40" required>
+        </div>
+        <div class="form-group">
+          <label for="">Descrição do cargo</label>
+          <input class="form-control" id="description" type="text" max="500" required>
+        </div>
+        <div class="form-group">
+          <label for="start-date">Data de início</label>
+          <input class="" type="date" id="start-date" name="" id="" value="" placeholder="dd/mm/aaaa" required>
+        </div>
+      </fieldset>
+     <button class="btn btn-success" type="button">Enviar</button>
+     <button class="btn btn-success" type="button">Limpar</button>
+    </form>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+  <noscript></noscript>
+</body>
+</html>
