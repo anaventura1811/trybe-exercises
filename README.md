@@ -6,8 +6,6 @@ A [Trybe](https://www.betrybe.com) é uma escola para pessoas que desejam constr
 
 O programa de formação da Trybe contempla mais de 1.500 horas de aulas online e inclui fundamentos em desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e soft skills. O currículo foi desenhado em parceria com as maiores empresas de tecnologia do Brasil e do mundo e, ao longo da formação, estudamos várias linguagens e frameworks, entre as quais: JavaScript, HTML, CSS, React, Node, Express.js, SQL, Git.
 
-Assim, o repositório First-Steps foi criado para adicionar os projetos que eu desenvolverei ao longo desta formação em desenvolvimento web. Sou estudante da turma 10, iniciada em fevereiro de 2021.
-
 ## Módulo 1 - Fundamentos do Desenvolvimento Web []
 
 **Bloco 1 - Unix, Bash e Shell Script**
@@ -47,9 +45,9 @@ Assim, o repositório First-Steps foi criado para adicionar os projetos que eu d
 **Bloco 5 - JavaScript - Projetos**
 - [x] *1. [Projeto To Do List](https://anaventura1811.github.io/minhas-tarefas/) e link para o [repositório]([https://github.com/anaventura1811/minhas-tarefas)*
 - [x] *2. [Projeto Mistery Letter](https://anaventura1811.github.io/mistery-letter/) e link para o [repositório](https://github.com/anaventura1811/mistery-letter)*
-- [ ] *3. Projeto Pixels Art*
-- [ ] *4. Projeto Meme Generator*
-- [ ] *5. Projeto Adivinhe a Cor*
+[ ] *3. Projeto Pixels Art*
+[ ] *4. Projeto Meme Generator*
+[ ] *5. Projeto Adivinhe a Cor*
 
 **Bloco 6 - HTML & CSS - Forms, Flexbox e Responsivo**
 - [x] *1. HTML & CSS - Forms*
@@ -63,8 +61,8 @@ Assim, o repositório First-Steps foi criado para adicionar os projetos que eu d
 **Bloco 7 - Introdução à JavaScript ES6 e Testes unitários**
 - [x] *1. JavaScript ES6 - let, const, arrow functions e template literals*
 - [x] *2. JavaScript ES6 - Objects*
-- [ ] *3. Testes unitários em JavaScript*
-- [ ] *Projeto JavaScript - Testes Unitários*
+[ ] *3. Testes unitários em JavaScript*
+[ ] *Projeto JavaScript - Testes Unitários*
 
 
 
