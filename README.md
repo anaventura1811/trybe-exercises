@@ -45,9 +45,9 @@ O programa de formação da Trybe contempla mais de 1.500 horas de aulas online 
 **Bloco 5 - JavaScript - Projetos**
 - [x] *1. [Projeto To Do List](https://anaventura1811.github.io/minhas-tarefas/) e link para o [repositório]([https://github.com/anaventura1811/minhas-tarefas)*
 - [x] *2. [Projeto Mistery Letter](https://anaventura1811.github.io/mistery-letter/) e link para o [repositório](https://github.com/anaventura1811/mistery-letter)*
-[ ] *3. Projeto Pixels Art*
-[ ] *4. Projeto Meme Generator*
-[ ] *5. Projeto Adivinhe a Cor*
+- [x] *3. Projeto Pixels Art*
+- [ ] *4. Projeto Meme Generator*
+- [ ] *5. Projeto Adivinhe a Cor*
 
 **Bloco 6 - HTML & CSS - Forms, Flexbox e Responsivo**
 - [x] *1. HTML & CSS - Forms*
@@ -61,8 +61,8 @@ O programa de formação da Trybe contempla mais de 1.500 horas de aulas online 
 **Bloco 7 - Introdução à JavaScript ES6 e Testes unitários**
 - [x] *1. JavaScript ES6 - let, const, arrow functions e template literals*
 - [x] *2. JavaScript ES6 - Objects*
-[ ] *3. Testes unitários em JavaScript*
-[ ] *Projeto JavaScript - Testes Unitários*
+- [ ] *3. Testes unitários em JavaScript*
+- [ ] *Projeto JavaScript - Testes Unitários*
 
 
 
