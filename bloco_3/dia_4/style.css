@@ -1,0 +1,174 @@
+
+body {
+    width: 100%;
+}
+.navigation, .navigation ul li {
+    display: inline-block;
+    list-style: none;
+    justify-content: center;  
+}
+
+.navigation ul li {
+    padding: 20px;
+    margin: 0 auto;
+    text-decoration: none; 
+}
+
+.navigation {
+    width: 100%;
+}
+ul li a {
+    text-decoration: none;
+    color: #594B3D;
+    font-size: 18px;
+    
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #594B3D;
+    font-family: 'Rokkitt', serif;
+    font-size: 40px;
+}
+ h2, h3, h4, a, #rodape {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+header {
+    background-color: #ffcaaf;
+    margin: 10px;
+}
+
+#main-section {
+    display: flex;
+}
+main {
+    width: 60%;
+    flex: 2;
+    padding: 20px;
+    background-color: rgba(196, 209, 245, 0.5);
+}
+
+#side-bar {
+    width: 30%;
+    height: auto;
+    flex: 1;
+    padding: 10px;
+    background-color: #a7bed3;
+    color: #2B2B6E;
+}
+
+footer {
+    background-color: #f1ffc4;
+    margin: 10px;
+}
+/*Table*/
+tr {
+    border: 1px solid #a7bed3;
+    padding-right: 5px;
+    padding-top: 6px;
+    display: block;
+    text-align: center;
+}
+td {
+    border-left: 1px dotted #a7bed3;
+    padding: 5px;
+}
+
+th {
+    width: 100px;
+}
+thead th {
+    width: fit-content;
+    padding: 10px;
+}
+table {
+    margin: 0 auto;
+    width: auto;
+}
+
+article p, table, #sobre {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    align-content: center;
+    
+}
+
+
+thead#table-title {
+    font-weight: 900;
+}
+.stomatopoda {
+   padding: 20px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.curiosidade {
+    font-weight: 900;
+}
+#artigos-menores {
+    display: inline-flex;
+    border-radius: 5%;
+    height: auto;
+    background-color: rgb(238, 169, 169, 0.7);
+}
+#artigos-menores article {
+    padding: 20px;  
+}
+
+article {
+    padding: 10px;
+}
+
+iframe {
+    align-items: center;
+    padding: 40px;
+}
+#rodape {
+    padding: 20px;
+}
+
+#referencias ul li, #referencias ul li a, #sobre p a {
+    text-decoration: none;
+    list-style:none;
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+#referencias ul li a:hover, #sobre p a:hover {
+    color: green;
+}
+
+#referencias {
+    background-color: hsl(351, 100%, 86%, 0.5);
+    border-radius: 5%;
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+#sobre {
+    font-weight: 800;
+    padding: 20px;
+}
+
+.icon {
+    width: 40px;
+    padding-left: 20px;
+}
+
+#icon-container {
+    justify-content: center;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+}
