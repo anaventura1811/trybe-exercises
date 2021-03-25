@@ -43,7 +43,7 @@ O programa de formação da Trybe contempla mais de 1.500 horas de aulas online 
 - [x] *4. JavaScript - Web Storage*
 
 **Bloco 5 - JavaScript - Projetos**
-- [x] *1. [Projeto To Do List](https://anaventura1811.github.io/minhas-tarefas/) e link para o [repositório]([https://github.com/anaventura1811/minhas-tarefas)*
+- [x] *1. [Projeto To Do List](https://anaventura1811.github.io/minhas-tarefas/) e link para o [repositório](https://github.com/anaventura1811/minhas-tarefas)*
 - [x] *2. [Projeto Mistery Letter](https://anaventura1811.github.io/mistery-letter/) e link para o [repositório](https://github.com/anaventura1811/mistery-letter)*
 - [x] *3. Projeto Pixels Art*
 - [ ] *4. Projeto Meme Generator*
